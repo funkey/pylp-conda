@@ -1,0 +1,21 @@
+package:
+  name: pylp
+  version: "0.0.1"
+
+source:
+  git_url: https://github.com/funkey/pylp
+  git_rev: 055520ce45683e4114e745b256a76b6973e24c02
+
+build:
+  number: 0
+
+requirements:
+ build:
+   - cmake
+   - boost
+ run:
+   - boost
+
+about:
+  home: https://github.com/funkey/pylp
+  license: MIT License

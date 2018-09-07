@@ -4,19 +4,24 @@ package:
 
 source:
   git_url: https://github.com/funkey/pylp
-  git_rev: 055520ce45683e4114e745b256a76b6973e24c02
+  git_rev: bae725efa46d92121c9f8079c5286ac30ed9ebc1
 
 build:
-  number: 1
+  number: 12
 
 requirements:
  build:
-   - cmake
+   - cmake=3.3
+   - gcc
+   - libgcc
    - boost
-   - python
+   - py-boost
+   - python {{python}}
  run:
+   - libgcc
    - boost
-   - python
+   - py-boost
+   - python {{python}}
 
 about:
   home: https://github.com/funkey/pylp

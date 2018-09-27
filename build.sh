@@ -1,2 +1,2 @@
 git submodule update --init
-$PYTHON setup.py install
+GUROBI_ROOT_DIR=${PREFIX} ${PYTHON} setup.py install

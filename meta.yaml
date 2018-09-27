@@ -4,10 +4,10 @@ package:
 
 source:
   git_url: https://github.com/funkey/pylp
-  git_rev: bae725efa46d92121c9f8079c5286ac30ed9ebc1
+  git_rev: 36d9616d4ff2c891bf5d5d418f8177b789b097b0
 
 build:
-  number: 12
+  number: 14
 
 requirements:
  build:
@@ -17,10 +17,12 @@ requirements:
    - boost
    - py-boost
    - python {{python}}
+   - gurobi
  run:
    - libgcc
    - boost
    - py-boost
+   - gurobi
    - python {{python}}
 
 about:

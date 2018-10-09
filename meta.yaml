@@ -4,10 +4,10 @@ package:
 
 source:
   git_url: https://github.com/funkey/pylp
-  git_rev: dbc50a932d04bfc6ef7deaf6dcf43e2b76e8a518
+  git_rev: c9ba261d836af13ff5b5703c2aa8f5b3ce88ca08
 
 build:
-  number: 15
+  number: 16
 
 requirements:
  build:

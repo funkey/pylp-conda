@@ -1,13 +1,13 @@
 package:
   name: pylp
-  version: "0.0.1"
+  version: "0.0.2"
 
 source:
   git_url: https://github.com/funkey/pylp
-  git_rev: c9ba261d836af13ff5b5703c2aa8f5b3ce88ca08
+  git_rev: v0.0.2
 
 build:
-  number: 16
+  number: 1
 
 requirements:
  build:

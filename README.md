@@ -2,9 +2,9 @@ Steps to build the package
 ==========================
 
 ```
-conda install conda-build
+conda install conda-build anaconda-client
 conda update conda-build
-conda build .
+conda build -c funkey .
 ```
 
 The last command gives instructions about how to upload the package.

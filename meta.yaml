@@ -11,13 +11,13 @@ build:
 
 requirements:
  build:
-   - libgcc
-   - python {{python}}
+   - {{ compiler('cxx') }}
+ host:
    - cython
+   - python {{python}}
    - scip
    - gurobi
  run:
-   - libgcc
    - python {{python}}
    - scip
    - gurobi

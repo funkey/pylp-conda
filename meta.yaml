@@ -1,29 +1,26 @@
 package:
   name: pylp
-  version: "0.0.2"
+  version: "0.1"
 
 source:
   git_url: https://github.com/funkey/pylp
-  git_rev: 73f18651043558fc6a23cf645fbad907645087cf
+  git_rev: 3271a3916262d7c4e13f9fbb63a8c9ee8f9f676b
 
 build:
   number: 1
 
 requirements:
  build:
-   - cmake=3.3
-   - gcc
    - libgcc
-   - boost
-   - py-boost
    - python {{python}}
+   - cython
+   - scip
    - gurobi
  run:
    - libgcc
-   - boost
-   - py-boost
-   - gurobi
    - python {{python}}
+   - scip
+   - gurobi
 
 about:
   home: https://github.com/funkey/pylp

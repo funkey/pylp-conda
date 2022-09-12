@@ -4,7 +4,7 @@ package:
 
 source:
   git_url: https://github.com/funkey/pylp
-  git_rev: 38592a62004a7dfad3ee4d3eccc802d4b21bfff1
+  git_rev: 474b164a2b19061fdf675a07b31c6975c0705a2e
 
 build:
   number: 1
